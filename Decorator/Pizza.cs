@@ -8,6 +8,10 @@ namespace Decorator
 {
     public class Pizza : Component
     {
+        public Pizza() : base(null)
+        {
+        }
+
         public override string Description()
         {
             return nameof(Pizza);

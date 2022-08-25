@@ -10,5 +10,11 @@ namespace Decorator
     {
         public abstract string Description();
         public abstract double Price();
+        protected Component _baseComponent;
+
+        public Component(Component component)
+        {
+            _baseComponent = component;
+        }
     }
 }

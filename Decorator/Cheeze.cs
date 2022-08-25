@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Decorator
 {
-    public class Cheeze : DecoratorComponent
+    public class Cheeze : Component
     {
         public Cheeze(Component component) : base(component)
         {

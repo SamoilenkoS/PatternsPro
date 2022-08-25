@@ -9,6 +9,7 @@ namespace Decorator
             Component pizza = new Pizza();
             pizza = new Cheeze(pizza);
             pizza = new Cheeze(pizza);
+            pizza = new Pizza();
             Console.WriteLine(pizza.Description() + pizza.Price());
         }
     }
